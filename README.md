@@ -10,9 +10,9 @@ TODO
     ✔️ Setup Not Found and Error Middlewares
 
 2. Model DB
-    What data will we store?
+    ✔️ What data will we store?
 
-3. Setup Mongoose Model
+3. ✔️ Setup Mongoose Model
 
 4. POST /logs
     Create a new log entry
