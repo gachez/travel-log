@@ -4,10 +4,10 @@ A full stack application to store / list places you have traveled.
 
 TODO
 1. Setup Server
-    Install Dependencies(done)
-    Install / Setup Linter(done)
-    Setup Express App(done)
-    Setup Not Found and Error Middlewares
+    ✔️ Install Dependencies 
+    ✔️ Install / Setup Linter
+    ✔️ Setup Express App
+    ✔️ Setup Not Found and Error Middlewares
 
 2. Model DB
     What data will we store?
