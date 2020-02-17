@@ -122,7 +122,7 @@ const  App = () => {
               onClose={() => setAddEntryLocation(null)}
               anchor="top" >
               <div>
-                <LogEntryForm />
+                <LogEntryForm location={addEntryLocation}/>
               </div>
             </Popup> 
           </React.Fragment>
