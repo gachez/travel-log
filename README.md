@@ -14,10 +14,10 @@ TODO
 
 3. ✔️ Setup Mongoose Model
 
-4. POST /logs
+4. ✔️  POST /logs
     Create a new log entry
 
-5. GET /logs
+5. ✔️  GET /logs
     list all log entries
 
 6. Setup Client
