@@ -1,15 +1,16 @@
 const mongoose = require('mongoose');
-const { Schema }  = mongoose;
+
 
 const requiredString = {
     type: String,
     required: true
 }
 
-const logEntrySchema = new Schema({
+const logEntrySchema = new mongoose.Schema({
     title:  requiredString,
     description: String,
     comments: String,
+    image: String,
     rating: {
         type: Number,
         min: 0,
@@ -32,7 +33,7 @@ const logEntrySchema = new Schema({
         type: Date,
         required: true,
     },
-    timestamps: true,
-});
+}, {timestamps: true});
 
 const LogEntry = mongoose.model('LogEntry', logEntrySchema);
+module.exports = LogEntry;
