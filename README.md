@@ -20,10 +20,10 @@ TODO
 5. ✔️  GET /logs
     list all log entries
 
-6. Setup Client
+6. ✔️ Setup Client
 
 7. Create Form to add a new entry
 
-8. Setup Map SDK on client
+8. ✔️ Setup Map SDK on client
 
 9. List all log entries on map
