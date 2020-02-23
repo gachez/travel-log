@@ -23,6 +23,10 @@ const LogEntryForm = ( { location }) =>{
         }
     }
 
+    const reload = () =>{
+        window.location.reload()
+    }
+
     return(
         <Form onSubmit={handleSubmit(onSubmit)} >
         <Form.Row>
@@ -58,7 +62,7 @@ const LogEntryForm = ( { location }) =>{
         </Form.Group>
         
         
-        <input type= "submit"/>
+        <input onClick={reload} type= "submit"/>
         </Form>
     )
 }
