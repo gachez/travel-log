@@ -16,6 +16,6 @@
     "NODE_ENV": "production",
     "PORT": "1337",
     "DATABASE_URL": "@travel-log-app-db",
-    "CORS_ORIGIN": ""
+    "CORS_ORIGIN": "https://travel-log-app.now.sh"
   }
 }

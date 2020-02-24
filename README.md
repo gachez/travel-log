@@ -15,15 +15,17 @@ TODO
 3. ✔️ Setup Mongoose Model
 
 4. ✔️  POST /logs
-    Create a new log entry
+     ✔️ Create a new log entry
 
 5. ✔️  GET /logs
-    list all log entries
+     ✔️ list all log entries
 
 6. ✔️ Setup Client
 
-7. Create Form to add a new entry
+7. ✔️ Create Form to add a new entry
 
 8. ✔️ Setup Map SDK on client
 
-9. List all log entries on map
+9. ✔️ List all log entries on map
+
+10. ✔️ DEPLOY
